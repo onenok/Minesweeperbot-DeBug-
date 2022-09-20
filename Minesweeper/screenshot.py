@@ -1,9 +1,14 @@
 import pyautogui as pgui
 from win32api import GetSystemMetrics as gsm
+import platform
 
+version = platform.system()
+if version == 10:
+    need_add = 172
+elif version == 11:
+    need_add = 168
 startX = ((((gsm(0)-1)/2)-618.5)/2)+1.5
 startY = (gsm(1)-730)/2+172
-
 numColumns = 24
 numRows = 20
 
