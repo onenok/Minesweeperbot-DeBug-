@@ -4,7 +4,7 @@
 1.<b> please download python 3.x or above </b> <br>
 2. Open the "pip install.bat" to install the module. <br>
 3. Make sure to download the code on your computer. <br>
-?(Press the green button code on the top right of the main page of the GitHub repository). <br>
+?(Press the green button "\<code\>" on the top right of the main page of the GitHub repository). <br>
 4. pls use win10.
 
 ## Preparation <br>
